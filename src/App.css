@@ -1,0 +1,109 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  margin-bottom: 5px;
+  margin-left: 120px;
+  perspective: 1000px; 
+}
+
+.card {
+   width: 200px;
+   color: brown;
+   font-size: 100px;
+   border: 1px solid transparent;
+   padding: 20px;
+   background-color: dimgrey;
+   margin: 20px; 
+   transform-style: preserve-3d;
+   transition: transform 0.5s;
+}
+
+.message {
+  font-size: 14px;
+}
+
+.card-front,
+.card-back {
+  display: flex;
+  
+}
+
+.card-back {
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+}
+
+.card-flipped {
+  transform: rotateY(180deg);
+}
+
+.container { 
+  width: 1200px; 
+  background-color:  hsl(235, 16%, 14%);
+  height: 100vh;  
+}
+
+.heading {
+   color: white;
+   padding-top: 100px; 
+   text-transform: capitalize;
+   letter-spacing: 5px;
+}
+.header-container {
+  margin-top: 20px;
+}
+small {
+  color: wheat;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin: 50px;
+}
+
+.small-container {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 200px;
+}
+
+.hours {
+  margin-left: 140px;
+  margin-top: -5px;
+}
+.seconds {
+  margin-left: 100px;
+  margin-top: -5px;
+}
+.days {
+  margin-left: 20px;
+  margin-top: -5px;
+}
+.minutes {
+  margin-left: 120px;
+  margin-top: -5px;
+}
+
+.icons {
+  margin: 80px;
+}
+
+.instagram {
+  margin-left: 30px;
+}
+.pintest {
+  margin-left: 30px;
+}
